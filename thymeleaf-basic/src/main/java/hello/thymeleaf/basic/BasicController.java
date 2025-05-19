@@ -119,6 +119,8 @@ public class BasicController {
     return "basic/javascript";
   }
 
+
+
   private void addUsers(Model model) {
     ArrayList<User> list = new ArrayList<>();
     list.add(new User("UserA", 10));
